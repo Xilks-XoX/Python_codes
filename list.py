@@ -17,3 +17,13 @@
 # for songs in playlist:
 #     print(songs)
 # print("removed track:", removed_track)
+
+# lb = ["Player 1", "Player 2", "Player 3", "Player 4"]
+# lb.append("Player 5")
+# lb.insert(1, "Pro Gamer")
+# knocked_out = lb.pop()
+# lb.remove("Player 3")
+# lb.extend(["Back Up Player"])
+# for players in lb:
+#     print(players)
+# print("knocked out player:", knocked_out)
