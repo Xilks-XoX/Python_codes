@@ -91,3 +91,56 @@
 #     print("gg")
 # else:
 #     print(bot)
+
+# challenge 12)
+# # age = int(input("age:"))
+# if age < 18:
+#     print("child")
+# else:
+#     print("senior")
+
+# challenge 13)
+# score = 0
+# num = int(input("number:"))
+# score += num
+# num2 = int(input("number:"))
+# score += num2
+# num3 = int(input("number:"))
+# score += num3
+# print(score)
+
+# challenge 14)
+# attempts = 0
+# while True:
+#     user = input("username:")
+#     password = input("password:")
+#     if user == "admin" and password == "1234":
+#         print("login success")
+#         break
+#     elif attempts >= 2:
+#         print("account locked")
+#         break
+#     else: 
+#         print("try again")
+#         attempts += 1
+#         continue
+
+# challenge 15)
+# import random
+# bot = random.choice(["water", "fire", "earth", "wind"])
+# user = input("element:")
+# print(bot)
+# if user == "water" and bot == [0]:
+#     print("draw")
+# elif user == "water" and bot == "fire" or \
+#     user == "fire" and bot == "earth" or \
+#     user == "earth" and bot == "wind" or \
+#     user == "wind" and bot == "water" :
+#     print("you win")
+# elif bot == "water" and user == "fire" or \
+#     bot == "fire" and user == "earth" or \
+#     bot == "earth" and user == "wind" or \
+#     bot == "wind" and user == "water":
+#     print("bot wins")
+# else:
+#     print("invalid element")
