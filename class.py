@@ -1,11 +1,4 @@
-# words_list = ["append", "input", "tie", "win"]
-# def filter_long_word(words_list):
-#     new_word = input("word:")
-#     words_list.append(new_word)
-#     for i in words_list:
-#         if len(i) > 4:
-#             print(f"-{i}")
-# filter_long_word(words_list)# class room:
+# class room:
 #     def __init__(self, classname, students, teacher_name):
 #         self.classname = classname
 #         self.students = students
