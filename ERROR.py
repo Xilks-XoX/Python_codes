@@ -49,6 +49,7 @@
 # guess_number()
 
 # import random
-# num = [1, 2, 3, 4, 5, 6]
+# dice = [1, 2, 3, 4, 5, 6]
 # for i in range(1, 6):
-#     print(random.choice(num))
+#     roll = random.choice(dice)
+#     print(roll)
