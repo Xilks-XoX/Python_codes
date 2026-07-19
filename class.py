@@ -81,3 +81,29 @@
 #     else:
 #         print("[ERROR] Invalid choice. Please select 1, 2, or 0.\n")
 # print("\nThank you for using our service")
+
+# expense = [] # Master list
+
+# def add_expense():
+#     global expense # 1. Tell Python to use the master list at the top
+    
+#     expense_input = input("name, amount, category: ")
+#     parts = expense_input.split() # 2. Changed from 'expense' to 'parts'
+    
+#     if len(parts) == 3:
+#         new_expense = {
+#             "name": parts[0],
+#             "amount": parts[1],
+#             "category": parts[2]
+#         }
+#         expense.append(new_expense) # Now this correctly adds to the master list!
+#     else:
+#         print("Error")
+
+# def view_expenses():
+#     for i in expense:
+#         print(f"{i['name']:12}{i['amount']:12}{i['category']:12}")
+
+# # Test it out
+# add_expense()
+# view_expenses()
