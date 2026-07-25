@@ -154,3 +154,19 @@
 #         print(f"{i.model_name} is active")
 #     else:
 #         print(f"{i.model_name} is inactive")
+
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
+#         self.grades = {}
+#     def add_grades(self):
+#         self.grades["Physics"] = 97
+#         self.grades["Chemistry"] = 98
+#         self.grades["Biology"] = 96
+#         self.grades["Astronomy"] = 99
+#     def profile(self):
+#         print(self.name)
+#         print(self.grades)
+# s = Student("Alex")
+# s.add_grades()
+# s.profile()
