@@ -82,28 +82,75 @@
 #         print("[ERROR] Invalid choice. Please select 1, 2, or 0.\n")
 # print("\nThank you for using our service")
 
-# expense = [] # Master list
-
 # def add_expense():
-#     global expense # 1. Tell Python to use the master list at the top
-    
+#     global expense
 #     expense_input = input("name, amount, category: ")
-#     parts = expense_input.split() # 2. Changed from 'expense' to 'parts'
-    
+#     parts = expense_input.split()
 #     if len(parts) == 3:
 #         new_expense = {
 #             "name": parts[0],
 #             "amount": parts[1],
 #             "category": parts[2]
 #         }
-#         expense.append(new_expense) # Now this correctly adds to the master list!
+#         expense.append(new_expense)
 #     else:
 #         print("Error")
-
 # def view_expenses():
 #     for i in expense:
 #         print(f"{i['name']:12}{i['amount']:12}{i['category']:12}")
-
-# # Test it out
 # add_expense()
 # view_expenses()
+
+# class Cat:
+#     def __init__(self, name):
+#         self.name = name
+#         self.is_hungry = True
+#     def feed(self):
+#         self.is_hungry = False
+# cat1 = Cat("Simon")
+# cat2 = Cat("Salmon")
+# cat3 = Cat("Sam")
+# cat2.feed()
+# list = [cat1, cat2, cat3]
+# for i in list:
+#     if i.is_hungry == False:
+#         print(f"{i.name} is full")
+#     else:
+#         print(f"{i.name} is hungry")
+
+# class Spaceship:
+#     def __init__(self, name):
+#         self.name = name
+#         self.is_launched = False
+#     def launch(self):
+#         self.is_launched = True
+#         print(f"{self.name} launched")
+# s1 = Spaceship("Apollo")
+# s2 = Spaceship("Falcon")
+# s3 = Spaceship("Voyager")
+# s1.launch()
+# s2.launch()
+# fleet = [s1, s2, s3]
+# print("\n---------status----------\n")
+# for i in fleet:
+#     if i.is_launched == True:
+#         print(f"{i.name} is lauched")
+#     else:
+#         print(f"{i.name} is still on the launch pad")
+
+# class Robot:
+#     def __init__(self, model_name):
+#         self.model_name = model_name
+#         self.is_powered_on = False
+#     def press_power_button(self):
+#         self.is_powered_on = True
+# r1 = Robot("RobotX")
+# r2 = Robot("Meta")
+# r3 = Robot("iRobot")
+# r1.press_power_button()
+# factory = (r1, r2, r3)
+# for i in factory:
+#     if i.is_powered_on == True:
+#         print(f"{i.model_name} is active")
+#     else:
+#         print(f"{i.model_name} is inactive")
