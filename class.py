@@ -170,3 +170,26 @@
 # s = Student("Alex")
 # s.add_grades()
 # s.profile()
+
+# class Hero:
+#     def __init__(self, hero_name):
+#         self.hero_name = hero_name
+#         self.stats = {
+#             "hp" : 100,
+#             "attack" : 15
+#         }
+#         self.equipped_gear = {
+#             "weapon" : "wooden sword",
+#             "armor" : "cloth robe"
+#         }
+#     def level_up(self):
+#         self.stats["hp"] += 20
+#         self.stats["attack"] += 5
+#     def equip_weapon(self, weapon_name):
+#         self.equipped_gear["weapon"] = weapon_name
+# h = Hero("Steve")
+# h.level_up()
+# w = input("weapon:")
+# h.equip_weapon(w)
+# print(h.stats)
+# print(h.equipped_gear)
