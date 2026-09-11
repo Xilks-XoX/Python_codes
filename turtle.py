@@ -58,3 +58,30 @@
 # pen.penup()
 # pen.goto(-120, 50)
 # pen.pendown()
+
+# from turtle import *
+# hideturtle()
+# def draw_polygon(sides, length, pen_size, s):
+    # clr = input("Color [HTML]: ")
+    # color(clr)
+    # pensize(pen_size)
+    # speed(s)
+    # angles = 360 / sides
+    # try:
+        # fill = input("Fill (y/N): ")
+        # if fill == "y":
+            # begin_fill()
+            # for i in range(sides):
+                # forward(length)
+                # left(angles)
+            # end_fill()
+        # elif fill == "N":
+            # for i in range(sides):
+                # forward(length)
+                # left(angles)
+        # else:
+            # raise ValueError("ERROR] Invalid answer")
+    # except ValueError as e:
+        # print("[ERROR] Invalid answer")
+# draw_polygon(4, 100, 2, 0)
+# done()
