@@ -85,3 +85,25 @@
         # print("[ERROR] Invalid answer")
 # draw_polygon(4, 100, 2, 0)
 # done()
+
+# from turtle import *
+# bgclr = input("Bg color [HTML]: ")
+# bgcolor(bgclr)
+# def growing_shape(s, length, sides, repeat, distance):
+#     speed(s)
+#     clr = input("Color [HTML]: ")
+#     color(clr)
+#     angles = 360 / sides
+#     for i in range(repeat):
+#         pendown()
+#         for j in range(sides):
+#             forward(length)
+#             left(angles)
+#         penup()
+#         backward(distance)
+#         right(90)
+#         forward(distance)
+#         left(90)
+#         length += distance * 2
+# growing_shape(0, 10, 4, 20, 10)
+# done()
