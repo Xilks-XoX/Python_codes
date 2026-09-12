@@ -107,3 +107,21 @@
 #         length += distance * 2
 # growing_shape(0, 10, 4, 20, 10)
 # done()
+
+# from turtle import *
+# bgclr = input("Bg color [HTML]: ")
+# hideturtle()
+# speed(0)
+# bgcolor(bgclr)
+# def draw_spiral(step, angles, repeat):
+#     clr = input("Color [HTML]: ")
+#     color(clr)
+#     step_distance = step * 2
+#     for i in range(repeat):
+#         forward(step)
+#         left(angles)
+#         forward(step_distance)
+#         left(angles)
+#         step += step_distance
+# draw_spiral(0.25, 25, 500)
+# done()
