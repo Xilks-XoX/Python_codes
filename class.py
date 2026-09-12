@@ -61,7 +61,7 @@
 #     print("1. Deposit")
 #     print("2. Withdraw")
 #     print("0. Cancel")
-#     choice = input("Enter choice:").strip()
+#     choice = input("Enter choice: ").strip()
 #     if choice == "1":
 #         try:
 #             d = float(input("Enter deposit amount: "))
