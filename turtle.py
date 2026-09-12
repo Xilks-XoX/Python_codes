@@ -125,3 +125,30 @@
 #         step += step_distance
 # draw_spiral(0.25, 25, 500)
 # done()
+
+# from turtle import *
+# speed(0)
+# bgclr = input("Bg color [hex]: ")
+# bgcolor(bgclr)
+# def draw_polygon(x, y, sides, side_length, hex_color, fill):
+#     penup()
+#     goto(x, y)
+#     pendown()
+#     color(hex_color)
+#     angles = 360 / sides
+#     if fill == "y":
+#         begin_fill()
+#         for i in range(sides):
+#             forward(side_length)
+#             left(angles)
+#             end_fill()
+#     elif fill == "N":
+#         for i in range(sides):
+#             forward(side_length)
+#             left(angles)
+# draw_polygon(0, 0, 5, 40, "#0000FF", "y")
+# draw_polygon(-100, -100, 4, 50, "#00FF00", "N")
+# draw_polygon(100, -100, 6, 60, "#00FF00", "N")
+# draw_polygon(-100, 100, 4, 50, "#FF0000", "y")
+# draw_polygon(100, 100, 8, 50, "#0000FF", "N")
+# done()
